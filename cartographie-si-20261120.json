@@ -1,0 +1,1491 @@
+{
+ "app": "cartographe-si",
+ "appVersion": "1.0.0",
+ "exportedAt": "2026-11-20T16:15:46.078Z",
+ "schema": 1,
+ "canvas": {
+  "w": 1669,
+  "h": 1148
+ },
+ "domains": [
+  {
+   "id": "axa",
+   "name": "Domaine de confiance AXA",
+   "color": "#3052d8",
+   "tx": "auto"
+  },
+  {
+   "id": "saas",
+   "name": "Applications SAAS chez des éditeurs",
+   "color": "#1f93b5",
+   "tx": "auto"
+  },
+  {
+   "id": "svc",
+   "name": "Services SAAS",
+   "color": "#4b1fb8",
+   "tx": "auto"
+  },
+  {
+   "id": "azure",
+   "name": "Tenant Azure Ugips",
+   "color": "#3dbb68",
+   "tx": "auto"
+  },
+  {
+   "id": "ugips",
+   "name": "UGIPS",
+   "color": "#4a17c4",
+   "tx": "auto"
+  },
+  {
+   "id": "grey",
+   "name": "Gris (historique / hors périmètre)",
+   "color": "#8d8d8d",
+   "tx": "auto"
+  }
+ ],
+ "items": [
+  {
+   "id": "a1",
+   "type": "arrow",
+   "x1": 1172,
+   "y1": 440,
+   "x2": 924,
+   "y2": 828,
+   "a1": "s41",
+   "a2": "",
+   "c": "#4a14c8",
+   "w": 4,
+   "dash": false,
+   "h1": false,
+   "h2": true
+  },
+  {
+   "id": "a2",
+   "type": "arrow",
+   "x1": 1172,
+   "y1": 328,
+   "x2": 1071,
+   "y2": 828,
+   "a1": "s42",
+   "a2": "",
+   "c": "#e0a800",
+   "w": 1.5,
+   "dash": false,
+   "h1": false,
+   "h2": true
+  },
+  {
+   "id": "a3",
+   "type": "arrow",
+   "x1": 1163,
+   "y1": 669,
+   "x2": 1104,
+   "y2": 826,
+   "a1": "",
+   "a2": "",
+   "c": "#2f6f6f",
+   "w": 1.5,
+   "dash": false,
+   "h1": false,
+   "h2": true
+  },
+  {
+   "id": "a4",
+   "type": "arrow",
+   "x1": 1171,
+   "y1": 84,
+   "x2": 351,
+   "y2": 536,
+   "a1": "",
+   "a2": "",
+   "c": "#4a7fb5",
+   "w": 1.5,
+   "dash": false,
+   "h1": false,
+   "h2": true
+  },
+  {
+   "id": "a5",
+   "type": "arrow",
+   "x1": 1102,
+   "y1": 267,
+   "x2": 1167,
+   "y2": 267,
+   "a1": "",
+   "a2": "",
+   "c": "#e0a800",
+   "w": 2,
+   "dash": false,
+   "h1": true,
+   "h2": true
+  },
+  {
+   "id": "t7",
+   "type": "text",
+   "x": 54,
+   "y": 64,
+   "t": "SI Ugips par Domaines",
+   "fs": 45,
+   "c": "#111111",
+   "b": true,
+   "i": false,
+   "anchor": "start"
+  },
+  {
+   "id": "t8",
+   "type": "text",
+   "x": 358,
+   "y": 115,
+   "t": "Novembre 2026",
+   "fs": 24,
+   "c": "#6b6b6b",
+   "b": true,
+   "i": false,
+   "anchor": "start"
+  },
+  {
+   "id": "s13",
+   "type": "stack",
+   "x": 56,
+   "y": 480,
+   "w": 147,
+   "dom": "axa",
+   "round": false,
+   "rows": [
+    {
+     "t": "*.ugips.fr",
+     "pre": "",
+     "s": "",
+     "h": 86,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Sites web",
+     "pre": "",
+     "s": "",
+     "h": 85,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Bitsight",
+     "pre": "",
+     "s": "",
+     "h": 35,
+     "tone": "darker",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "type": "stack",
+   "x": 57,
+   "y": 705,
+   "w": 69,
+   "dom": "axa",
+   "round": false,
+   "rows": [
+    {
+     "t": "Teams",
+     "pre": "",
+     "s": "",
+     "h": 29,
+     "tone": "base",
+     "d": "",
+     "fs": 12,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "type": "stack",
+   "x": 130,
+   "y": 705,
+   "w": 68,
+   "dom": "axa",
+   "round": false,
+   "rows": [
+    {
+     "t": "CTI",
+     "pre": "",
+     "s": "",
+     "h": 29,
+     "tone": "dark",
+     "d": "",
+     "fs": 12,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "type": "stack",
+   "x": 57,
+   "y": 734,
+   "w": 141,
+   "dom": "axa",
+   "round": false,
+   "rows": [
+    {
+     "t": "Téléphonie",
+     "pre": "",
+     "s": "",
+     "h": 83,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Print office",
+     "pre": "",
+     "s": "imprimantes RICOH",
+     "h": 83,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "type": "stack",
+   "x": 59,
+   "y": 922,
+   "w": 140,
+   "dom": "axa",
+   "round": false,
+   "rows": [
+    {
+     "t": "Réseau",
+     "pre": "",
+     "s": "",
+     "h": 81,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "type": "stack",
+   "x": 211,
+   "y": 490,
+   "w": 140,
+   "dom": "axa",
+   "round": false,
+   "rows": [
+    {
+     "t": "SFO",
+     "pre": "",
+     "s": "",
+     "h": 34,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Stockage",
+     "pre": "",
+     "s": "",
+     "h": 22,
+     "tone": "darker",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "type": "stack",
+   "x": 211,
+   "y": 562,
+   "w": 141,
+   "dom": "axa",
+   "round": false,
+   "rows": [
+    {
+     "t": "Habilitations Applications métiers AXA",
+     "pre": "",
+     "s": "",
+     "h": 83,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Applications métiers AXA",
+     "pre": "",
+     "s": "",
+     "h": 81,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Anti virus",
+     "pre": "",
+     "s": "",
+     "h": 28,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "EDR",
+     "pre": "",
+     "s": "",
+     "h": 25,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "VPN",
+     "pre": "",
+     "s": "",
+     "h": 28,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "type": "stack",
+   "x": 212,
+   "y": 822,
+   "w": 140,
+   "dom": "axa",
+   "round": false,
+   "rows": [
+    {
+     "t": "Postes de travail",
+     "pre": "",
+     "s": "",
+     "h": 84,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "type": "stack",
+   "x": 212,
+   "y": 920,
+   "w": 140,
+   "dom": "axa",
+   "round": false,
+   "rows": [
+    {
+     "t": "Sécurité SOC",
+     "pre": "",
+     "s": "",
+     "h": 83,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "type": "stack",
+   "x": 364,
+   "y": 543,
+   "w": 144,
+   "dom": "axa",
+   "round": false,
+   "rows": [
+    {
+     "t": "StorageX",
+     "pre": "",
+     "s": "",
+     "h": 30,
+     "tone": "light",
+     "d": "",
+     "fs": 13,
+     "i": true,
+     "b": false
+    },
+    {
+     "t": "IGP",
+     "pre": "",
+     "s": "",
+     "h": 30,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": true,
+     "b": false
+    },
+    {
+     "t": "AIP",
+     "pre": "",
+     "s": "",
+     "h": 31,
+     "tone": "base",
+     "d": "axa",
+     "fs": 13,
+     "i": true,
+     "b": false
+    },
+    {
+     "t": "DLP",
+     "pre": "",
+     "s": "",
+     "h": 30,
+     "tone": "dark",
+     "d": "axa",
+     "fs": 13,
+     "i": true,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "type": "stack",
+   "x": 366,
+   "y": 682,
+   "w": 142,
+   "dom": "axa",
+   "round": false,
+   "rows": [
+    {
+     "t": "etc…",
+     "pre": "",
+     "s": "",
+     "h": 27,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": true,
+     "b": false
+    },
+    {
+     "t": "OneDrive",
+     "pre": "",
+     "s": "",
+     "h": 22,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Teams",
+     "pre": "",
+     "s": "",
+     "h": 27,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Messagerie",
+     "pre": "",
+     "s": "",
+     "h": 24,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Sharepoint",
+     "pre": "",
+     "s": "",
+     "h": 28,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "type": "stack",
+   "x": 366,
+   "y": 824,
+   "w": 142,
+   "dom": "axa",
+   "round": false,
+   "rows": [
+    {
+     "t": "Suite\nOffice 365",
+     "pre": "",
+     "s": "",
+     "h": 81,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "type": "stack",
+   "x": 366,
+   "y": 920,
+   "w": 142,
+   "dom": "axa",
+   "round": false,
+   "rows": [
+    {
+     "t": "Accès Internet",
+     "pre": "",
+     "s": "",
+     "h": 83,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "type": "stack",
+   "x": 535,
+   "y": 828,
+   "w": 142,
+   "dom": "saas",
+   "round": false,
+   "rows": [
+    {
+     "t": "Kellio",
+     "pre": "",
+     "s": "https://ugips.kellio-software.com/",
+     "h": 82,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "BODET",
+     "pre": "",
+     "s": "",
+     "h": 21,
+     "tone": "light",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "BODET",
+     "pre": "",
+     "s": "",
+     "h": 25,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "OCEANET",
+     "pre": "",
+     "s": "",
+     "h": 26,
+     "tone": "darker",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "type": "stack",
+   "x": 688,
+   "y": 828,
+   "w": 141,
+   "dom": "saas",
+   "round": false,
+   "rows": [
+    {
+     "t": "ITESOFT",
+     "pre": "",
+     "s": "",
+     "h": 82,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "ITESOFT",
+     "pre": "",
+     "s": "",
+     "h": 21,
+     "tone": "light",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "ITESOFT",
+     "pre": "",
+     "s": "",
+     "h": 25,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "MS Azure ITESOFT",
+     "pre": "",
+     "s": "",
+     "h": 26,
+     "tone": "darker",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "type": "stack",
+   "x": 958,
+   "y": 224,
+   "w": 143,
+   "dom": "svc",
+   "round": false,
+   "rows": [
+    {
+     "t": "Universign",
+     "pre": "",
+     "s": "",
+     "h": 86,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "type": "stack",
+   "x": 956,
+   "y": 413,
+   "w": 142,
+   "dom": "svc",
+   "round": false,
+   "rows": [
+    {
+     "t": "Linkmobility",
+     "pre": "",
+     "s": "",
+     "h": 84,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "type": "stack",
+   "x": 853,
+   "y": 829,
+   "w": 142,
+   "dom": "svc",
+   "round": false,
+   "rows": [
+    {
+     "t": "Peopledoc",
+     "pre": "",
+     "s": "Démat FP",
+     "h": 82,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "type": "stack",
+   "x": 1000,
+   "y": 829,
+   "w": 140,
+   "dom": "svc",
+   "round": false,
+   "rows": [
+    {
+     "t": "Mailjet",
+     "pre": "",
+     "s": "Mails transactionnels",
+     "h": 82,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s38",
+   "type": "stack",
+   "x": 853,
+   "y": 922,
+   "w": 142,
+   "dom": "svc",
+   "round": false,
+   "rows": [
+    {
+     "t": "Netexplorer",
+     "pre": "",
+     "s": "Partage sécurisé de fichiers ISO27001 ISO9000 PCIDSS RGPD HDS",
+     "h": 82,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "type": "stack",
+   "x": 999,
+   "y": 922,
+   "w": 141,
+   "dom": "grey",
+   "round": false,
+   "rows": [
+    {
+     "t": "OVH",
+     "pre": "",
+     "s": "Sauvegardes externalisées",
+     "h": 82,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s40",
+   "type": "stack",
+   "x": 1168,
+   "y": 16,
+   "w": 145,
+   "dom": "azure",
+   "round": false,
+   "rows": [
+    {
+     "t": "https://upload.ugipsgestion.fr/",
+     "pre": "",
+     "s": "",
+     "h": 75,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Simplicit",
+     "pre": "",
+     "s": "",
+     "h": 28,
+     "tone": "light",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Simplicit",
+     "pre": "",
+     "s": "",
+     "h": 25,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "MS Azure UGIPS",
+     "pre": "",
+     "s": "",
+     "h": 27,
+     "tone": "darker",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "type": "stack",
+   "x": 1164,
+   "y": 368,
+   "w": 144,
+   "dom": "azure",
+   "round": false,
+   "rows": [
+    {
+     "t": "Serveur Sage",
+     "pre": "",
+     "s": "RDP",
+     "h": 73,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Scope",
+     "pre": "",
+     "s": "",
+     "h": 27,
+     "tone": "light",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Simplicit",
+     "pre": "",
+     "s": "",
+     "h": 22,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "MS Azure UGIPS",
+     "pre": "",
+     "s": "",
+     "h": 25,
+     "tone": "darker",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "type": "stack",
+   "x": 1168,
+   "y": 188,
+   "w": 141,
+   "dom": "azure",
+   "round": false,
+   "rows": [
+    {
+     "t": "quijeprotege.fr",
+     "pre": "",
+     "s": "",
+     "h": 86,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Simplicit",
+     "pre": "",
+     "s": "",
+     "h": 28,
+     "tone": "light",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Simplicit",
+     "pre": "",
+     "s": "",
+     "h": 25,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "MS Azure UGIPS",
+     "pre": "",
+     "s": "",
+     "h": 26,
+     "tone": "darker",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s43",
+   "type": "stack",
+   "x": 1320,
+   "y": 348,
+   "w": 144,
+   "dom": "azure",
+   "round": false,
+   "rows": [
+    {
+     "t": "https://gds.ugipsgestion.fr/",
+     "pre": "",
+     "s": "",
+     "h": 86,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Simplicit",
+     "pre": "",
+     "s": "",
+     "h": 28,
+     "tone": "light",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Simplicit",
+     "pre": "",
+     "s": "",
+     "h": 25,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "MS Azure UGIPS",
+     "pre": "",
+     "s": "",
+     "h": 26,
+     "tone": "darker",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s44",
+   "type": "stack",
+   "x": 1476,
+   "y": 356,
+   "w": 143,
+   "dom": "grey",
+   "round": false,
+   "rows": [
+    {
+     "t": "SMSMAIL",
+     "pre": "",
+     "s": "https://smsmail.ugipsgestion.fr",
+     "h": 82,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Simplicit",
+     "pre": "",
+     "s": "",
+     "h": 28,
+     "tone": "light",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Simplicit",
+     "pre": "",
+     "s": "",
+     "h": 25,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "MS Azure UGIPS",
+     "pre": "",
+     "s": "",
+     "h": 26,
+     "tone": "darker",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s45",
+   "type": "stack",
+   "x": 1476,
+   "y": 528,
+   "w": 144,
+   "dom": "azure",
+   "round": false,
+   "rows": [
+    {
+     "t": "https://controleinterne.ugipsgestion.fr/",
+     "pre": "",
+     "s": "",
+     "h": 82,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Simplicit",
+     "pre": "",
+     "s": "",
+     "h": 28,
+     "tone": "light",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Simplicit",
+     "pre": "",
+     "s": "",
+     "h": 25,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "MS Azure UGIPS",
+     "pre": "",
+     "s": "",
+     "h": 26,
+     "tone": "darker",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s46",
+   "type": "stack",
+   "x": 1164,
+   "y": 528,
+   "w": 141,
+   "dom": "azure",
+   "round": false,
+   "rows": [
+    {
+     "t": "Odoo",
+     "pre": "",
+     "s": "",
+     "h": 83,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Simplicit",
+     "pre": "",
+     "s": "",
+     "h": 28,
+     "tone": "light",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Simplicit",
+     "pre": "",
+     "s": "",
+     "h": 25,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "MS Azure UGIPS",
+     "pre": "",
+     "s": "",
+     "h": 26,
+     "tone": "darker",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s47",
+   "type": "stack",
+   "x": 1320,
+   "y": 528,
+   "w": 143,
+   "dom": "azure",
+   "round": false,
+   "rows": [
+    {
+     "t": "https://ugipsgestion.fr",
+     "pre": "",
+     "s": "",
+     "h": 83,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Simplicit",
+     "pre": "",
+     "s": "",
+     "h": 28,
+     "tone": "light",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Simplicit",
+     "pre": "",
+     "s": "",
+     "h": 25,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "MS Azure UGIPS",
+     "pre": "",
+     "s": "",
+     "h": 26,
+     "tone": "darker",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s53",
+   "type": "stack",
+   "x": 1160,
+   "y": 708,
+   "w": 452,
+   "dom": "axa",
+   "round": false,
+   "rows": [
+    {
+     "t": "AXA CMDB 2023",
+     "pre": "",
+     "s": "",
+     "h": 37,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "AXA QUALYS (MTSB) 2023",
+     "pre": "",
+     "s": "",
+     "h": 36,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "AXA EDR 2023",
+     "pre": "",
+     "s": "",
+     "h": 36,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "AXA EPP 2023",
+     "pre": "",
+     "s": "",
+     "h": 33,
+     "tone": "dark",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Reverse proxy",
+     "pre": "",
+     "s": "",
+     "h": 34,
+     "tone": "base",
+     "d": "azure",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "DDOS Azure",
+     "pre": "",
+     "s": "",
+     "h": 33,
+     "tone": "base",
+     "d": "azure",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "WAF Azure",
+     "pre": "",
+     "s": "",
+     "h": 33,
+     "tone": "base",
+     "d": "azure",
+     "fs": 13,
+     "i": false,
+     "b": false
+    },
+    {
+     "t": "Bastion Azure",
+     "pre": "",
+     "s": "",
+     "h": 33,
+     "tone": "base",
+     "d": "azure",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s54",
+   "type": "stack",
+   "x": 64,
+   "y": 1012,
+   "w": 444,
+   "dom": "axa",
+   "round": true,
+   "rows": [
+    {
+     "t": "Domaine de confiance AXA",
+     "pre": "",
+     "s": "",
+     "h": 53,
+     "tone": "dark",
+     "d": "",
+     "fs": 26,
+     "i": false,
+     "b": true
+    }
+   ]
+  },
+  {
+   "id": "s55",
+   "type": "stack",
+   "x": 535,
+   "y": 1012,
+   "w": 293,
+   "dom": "saas",
+   "round": true,
+   "rows": [
+    {
+     "t": "Applications SAAS\nchez des éditeurs",
+     "pre": "",
+     "s": "",
+     "h": 54,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s56",
+   "type": "stack",
+   "x": 844,
+   "y": 1013,
+   "w": 292,
+   "dom": "svc",
+   "round": true,
+   "rows": [
+    {
+     "t": "Services SAAS",
+     "pre": "",
+     "s": "",
+     "h": 52,
+     "tone": "base",
+     "d": "",
+     "fs": 14,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s57",
+   "type": "stack",
+   "x": 1158,
+   "y": 1014,
+   "w": 446,
+   "dom": "azure",
+   "round": true,
+   "rows": [
+    {
+     "t": "Tenant Azure\nUgips",
+     "pre": "",
+     "s": "",
+     "h": 52,
+     "tone": "base",
+     "d": "",
+     "fs": 14,
+     "i": false,
+     "b": false
+    }
+   ]
+  },
+  {
+   "id": "s59",
+   "type": "stack",
+   "x": 63,
+   "y": 1073,
+   "w": 1538,
+   "dom": "ugips",
+   "round": true,
+   "rows": [
+    {
+     "t": "UGIPS",
+     "pre": "",
+     "s": "",
+     "h": 50,
+     "tone": "base",
+     "d": "",
+     "fs": 13,
+     "i": false,
+     "b": false
+    }
+   ]
+  }
+ ]
+}
